@@ -7,9 +7,9 @@ const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className="bg-blue-200 relative z-20">
+			<nav className="bg-blue-10 relative z-20">
 				<div className="container mx-auto">
-					<div className="bg-blue-200 text-black py-3 ">
+					<div className="bg-blue-10 text-black py-3 ">
 						<div className="flex items-center justify-between">
 							<NavLink to="/home">
 								<img className="h-8" src={logo} alt="logo" />
@@ -19,7 +19,7 @@ const Header = () => {
 								<div className="hidden sm:flex items-center space-x-10">
 									<NavLink
 										to="/home"
-										className="font-semibold text-blue-800"
+										className="font-semibold text-blue-40"
 										activeStyle={{
 											color: '#F71843',
 										}}
@@ -27,8 +27,8 @@ const Header = () => {
 										Home
 									</NavLink>
 									<NavLink
-										to="/blogs"
-										className="font-semibold text-blue-800"
+										to="/blog"
+										className="font-semibold text-blue-40"
 										activeStyle={{
 											color: '#F71843',
 										}}
@@ -37,7 +37,7 @@ const Header = () => {
 									</NavLink>
 									<NavLink
 										to="/about"
-										className="font-semibold text-blue-800"
+										className="font-semibold text-blue-40"
 										activeStyle={{
 											color: '#F71843',
 										}}
