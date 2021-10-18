@@ -3,6 +3,7 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import { HashLink } from 'react-router-hash-link';
 import { BsArrowRight } from 'react-icons/bs';
+import './Hero.css';
 
 const contents = [
 	{
@@ -29,17 +30,19 @@ const Hero = () => {
 			<Slider
 				autoplay="7000"
 				infinite="true"
-				classNames="buttonDisabled previousButton disabled"
+				classNames="buttonDisabled previousButton disabled "
+				className="slider-wrapper"
 			>
 				{contents.map((content) => (
 					<div
-						className="absolute top-0 w-full h-3/6 "
+						className="absolute top-0 w-full"
 						key={content.key}
 						style={{
 							backgroundImage: `url(${content.img})`,
 							backgroundSize: 'cover',
 							backgroundPosition: 'center',
 							backgroundRepeat: 'no-repeat',
+							height: '555px',
 						}}
 					></div>
 				))}
