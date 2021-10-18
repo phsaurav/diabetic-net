@@ -29,11 +29,11 @@ const Hero = () => {
 			<Slider
 				autoplay="7000"
 				infinite="true"
-				classNames="buttonDisabled previousButton"
+				classNames="buttonDisabled previousButton disabled"
 			>
 				{contents.map((content) => (
 					<div
-						className="absolute top-0 w-full h-3/6"
+						className="absolute top-0 w-full h-3/6 "
 						key={content.key}
 						style={{
 							backgroundImage: `url(${content.img})`,
