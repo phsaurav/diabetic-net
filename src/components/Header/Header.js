@@ -2,15 +2,16 @@ import React, { useState } from 'react';
 import logo from '../../assets/logo_title.png';
 import { NavLink } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
+import './Header.css';
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (
 		<div>
-			<nav className="bg-blue-10 relative z-20">
+			<nav className="bg-blue-40 relative z-20">
 				<div className="container mx-auto">
-					<div className="bg-blue-10 text-black py-3 ">
-						<div className="flex items-center justify-between">
+					<div className="bg-blue-40  text-black py-3 ">
+						<div className="flex items-center justify-between uppercase">
 							<NavLink to="/home">
 								<img className="h-8" src={logo} alt="logo" />
 							</NavLink>
@@ -19,7 +20,7 @@ const Header = () => {
 								<div className="hidden sm:flex items-center space-x-10">
 									<NavLink
 										to="/home"
-										className="font-semibold text-blue-40"
+										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
 											color: '#F71843',
 										}}
@@ -28,7 +29,7 @@ const Header = () => {
 									</NavLink>
 									<NavLink
 										to="/blog"
-										className="font-semibold text-blue-40"
+										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
 											color: '#F71843',
 										}}
@@ -37,7 +38,7 @@ const Header = () => {
 									</NavLink>
 									<NavLink
 										to="/about"
-										className="font-semibold text-blue-40"
+										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
 											color: '#F71843',
 										}}
