@@ -51,7 +51,7 @@ const Hero = () => {
 				<span
 					id="blackOverlay"
 					className="w-full absolute bg-center opacity-30 bg-black top-0"
-					style={{ height: '556px' }}
+					style={{ height: '564px' }}
 				></span>
 			</div>
 			<div className="w-3/6 ml-5 md:ml-28 lg:ml-40 xl:ml-72 absolute top-28 mx-auto">
