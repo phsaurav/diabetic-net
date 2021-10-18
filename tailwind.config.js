@@ -28,6 +28,9 @@ module.exports = {
 			orange: colors.orange,
 			green: colors.green,
 			lime: colors.lime,
+			brand: {
+				1: '#CD4760',
+			},
 		},
 		fontFamily: {},
 		fontSize: {

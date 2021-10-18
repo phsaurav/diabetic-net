@@ -22,7 +22,7 @@ const Header = () => {
 										to="/home"
 										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
-											color: '#F71843',
+											color: '#CD4760',
 										}}
 									>
 										Home
@@ -31,7 +31,7 @@ const Header = () => {
 										to="/blog"
 										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
-											color: '#F71843',
+											color: '#CD4760',
 										}}
 									>
 										Daily Blog
@@ -40,7 +40,7 @@ const Header = () => {
 										to="/about"
 										className="font-semibold text-white link link-underline link-underline-red"
 										activeStyle={{
-											color: '#F71843',
+											color: '#CD4760',
 										}}
 									>
 										About Us
