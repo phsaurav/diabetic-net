@@ -1,8 +1,10 @@
+import { Switch, Route, useHistory } from 'react-router-dom';
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import useServices from '../../hooks/useServices';
 import Card from './Card/Card';
 import CardInvert from './CardInvert/CardInvert';
+import Service from './Service/Service';
 
 const Home = () => {
 	const [services] = useServices();
@@ -15,18 +17,45 @@ const Home = () => {
 			>
 				Services
 			</h1>
-			<div className="container mx-auto">
-				{services.map((service, index) =>
-					index % 2 ? (
-						<CardInvert
-							key={service.key}
-							service={service}
-						></CardInvert>
-					) : (
-						<Card key={service.key} service={service}></Card>
-					)
-				)}
-			</div>
+			<Switch>
+				<Route path="/" exact>
+					<div className="container mx-auto">
+						{services.map((service, index) =>
+							index % 2 ? (
+								<CardInvert
+									key={service.key}
+									service={service}
+								></CardInvert>
+							) : (
+								<Card
+									key={service.key}
+									service={service}
+								></Card>
+							)
+						)}
+					</div>
+				</Route>
+				<Route path="/home" exact>
+					<div className="container mx-auto">
+						{services.map((service, index) =>
+							index % 2 ? (
+								<CardInvert
+									key={service.key}
+									service={service}
+								></CardInvert>
+							) : (
+								<Card
+									key={service.key}
+									service={service}
+								></Card>
+							)
+						)}
+					</div>
+				</Route>
+				<Route path="/home/:key">
+					<Service services={services}></Service>
+				</Route>
+			</Switch>
 		</div>
 	);
 };

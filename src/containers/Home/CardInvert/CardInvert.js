@@ -15,7 +15,7 @@ const CardInvert = ({ service }) => {
 						<p className="mt-2 hidden md:block text-gray-500 text-sm lg:text-base ">
 							{intro}
 						</p>
-						<Link to={`/service/${key}`}>
+						<Link to={`/home/${key}`}>
 							<button className="my-5 bg-brand-1 hover:bg-brand-3 text-white text-sm font-normal px-3 md:px-5 py-2 lg:py-3 md:font-semibold">
 								Explore Treatment & Care
 							</button>

@@ -10,6 +10,7 @@ import Blogs from './containers/Blogs/Blogs';
 import About from './containers/About/About';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Subscribe from './containers/Subscribe/Subscribe';
 
 function App() {
 	return (
@@ -38,6 +39,9 @@ function App() {
 								<Route path="/register">
 									<Register></Register>
 								</Route>
+								<PrivateRoute path="/subscribe">
+									<Subscribe></Subscribe>
+								</PrivateRoute>
 								<Route>
 									<NotFound></NotFound>
 								</Route>
