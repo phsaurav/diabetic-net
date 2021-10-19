@@ -8,6 +8,7 @@ import useAuth from '../../hooks/useAuth';
 const Header = () => {
 	const { user, logOut } = useAuth();
 	const [isOpen, setIsOpen] = useState(false);
+
 	return (
 		<div>
 			<nav className="bg-blue-40 relative z-20">
@@ -54,7 +55,11 @@ const Header = () => {
 									{user.displayName ? (
 										<div className="flex items-center">
 											<p className="font-semibold text-white link link-underline link-underline-red">
-												{user.displayName}
+												{user.displayName.length > 8
+													? user.displayName.split(
+															' '
+													  )[0]
+													: user.displayName}
 											</p>
 											<button
 												onClick={logOut}

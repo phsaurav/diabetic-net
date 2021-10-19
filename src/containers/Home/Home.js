@@ -1,9 +1,11 @@
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
+import useServices from '../../hooks/useServices';
 import Card from './Card/Card';
 import CardInvert from './CardInvert/CardInvert';
 
 const Home = () => {
+	const [services] = useServices();
 	return (
 		<div>
 			<Hero></Hero>
@@ -14,8 +16,16 @@ const Home = () => {
 				Services
 			</h1>
 			<div className="container mx-auto">
-				<Card></Card>
-				<CardInvert></CardInvert>
+				{services.map((service, index) =>
+					index % 2 ? (
+						<CardInvert
+							key={service.key}
+							service={service}
+						></CardInvert>
+					) : (
+						<Card key={service.key} service={service}></Card>
+					)
+				)}
 			</div>
 		</div>
 	);

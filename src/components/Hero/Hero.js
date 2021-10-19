@@ -32,6 +32,8 @@ const Hero = () => {
 				infinite="true"
 				classNames="buttonDisabled previousButton disabled "
 				className="slider-wrapper"
+				previousButton=""
+				nextButton=""
 			>
 				{contents.map((content) => (
 					<div

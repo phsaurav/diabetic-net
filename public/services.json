@@ -1,0 +1,70 @@
+[
+	{
+		"key": "B001RL8IYK",
+		"img": "https://www.diabetes.org/sites/default/files/styles/hero_level2_widescreen/public/2021-01/ADA_L2_Type1-Overview-min.jpg",
+		"title": "Type 1 Diabetes",
+		"subtitle": "Let’s fight type 1 diabetes together.",
+		"intro": "No matter how type 1 diabetes has shown up in your life, you can find success by balancing your medications, and sticking to your daily exercise routine and nutrition plan.",
+		"description": "No matter how type 1 diabetes has shown up in your life, you can find success by balancing your medications, and sticking to your daily exercise routine and nutrition plan. But wherever you are with this challenge, you can always reach out for help of any kind—from your caregivers, your family or other people who live with type 1 diabetes. ",
+		"1": "Mental health matters.",
+		"2": "You are in control.",
+		"3": "Manage your medication."
+		
+	},
+	{
+		"key": "B002RL8IYK",
+		"img": "https://www.diabetes.org/sites/default/files/styles/paragraph_50_50_widescreen/public/2019-06/Treatment%20and%20Care_Here-1400x1000.jpg",
+		"title": "Type 2 Diabetes",
+		"subtitle": "Life doesn’t end with type 2 diabetes.",
+		"intro": "No matter where you are with type 2 diabetes, there are some things you should know. It's the most common form of diabetes.",
+		"description": "No matter where you are with type 2 diabetes, there are some things you should know. It's the most common form of diabetes. Type 2 means that your body doesn't use insulin properly. And while some people can control their blood sugar levels with healthy eating and exercise, others may need medication or insulin to manage it. Regardless, you have everything you need to fight it.",
+		"1": "Every journey is unique.",
+		"2": "The right fuel.",
+		"3": "Get moving with a fitness plan."
+		
+	},
+	{
+		"key": "B003RL8IYK",
+		"img": "https://www.diabetes.org/sites/default/files/styles/hero_level2_widescreen/public/2019-04/Gestational_Hero%402x.jpg",
+		"title": "Gestational Diabetes",
+		"subtitle": "Life doesn’t end with type 2 diabetes.",
+		"intro": "Nearly 10 percent of pregnancies are affected by gestational diabetes every year. So know that you’re not alone.",
+		"description": "Nearly 10 percent of pregnancies are affected by gestational diabetes every year. So know that you’re not alone. And know that it doesn’t mean that you had diabetes before you conceived or that you will have diabetes after you give birth. It means that, by working with your doctor, you can have a healthy pregnancy and a healthy baby. No matter what, you have all the support you need for both you and your baby.",
+		"1": "How you can treat it.",
+		"2": "Diet and exercise are your friends.",
+		"3": "We’re here to help."
+	},
+	{
+		"key": "B004RL8IYK",
+		"img": "https://uploadcomet.com/wp-content/uploads/2020/10/shutterstock_240701866-1000x667-1.jpg",
+		"title": "Insuline & Syringes",
+		"subtitle": "Choose insulin syringes designed for easy injections.",
+		"intro": "Choose insulin syringes designed for comfortable injections, in line with the latest recommendations on insulin delivery",
+		"description": "Get your insuline to your doorstep every month and Choose insulin syringes designed for comfortable injections, in line with the latest recommendations on insulin delivery. Just as effective as insulin syringes with longer needles, our 6-mm insulin syringes. Utilizing thin wall technology, they feature a thinner wall that reduces the required plunger force and that helps large insulin doses flow easily.",
+		"1": "Recomendation on Insulin.",
+		"2": "Different insulin syringe choices.",
+		"3": "Scheduled delivery at doorstep."
+	},
+	{
+		"key": "B005RL8IYK",
+		"img": "https://www.medicalcounsel.org/wp-content/uploads/2020/04/How-To-Keep-Insulin-Cold-While-Travelling.png",
+		"title": "Pen Needles & Support Products",
+		"subtitle": "Take comfort in our needles.",
+		"intro": "High quality pen type needle option and products for injection allow patients to prepare their sites and draw up their insulin.",
+		"Description": "Get your insuline to your doorstep every month with high quality pen type needle option and products for injection allow patients to prepare their sites and draw up their insulin. Utilizing thin wall technology, they feature a thinner wall that reduces the required plunger force and that helps large insulin doses flow easily.",
+		"1": "Recomendation on Insulin.",
+		"2": "Different insulin pen choices.",
+		"3": "Scheduled delivery at doorstep."
+	},
+	{
+		"key": "B006RL8IYK",
+		"img": "https://i.ibb.co/1R8Xrhw/hand-with-blue-latex-glove-throws-syringe-into-yellow-waste-container-hospital-min.jpg",
+		"title": "Sharps containment at home",
+		"subtitle": "Dispose of sharps safely",
+		"intro": "Provides convenient, safety-engineered disposal products that help reduce needlestick injuries",
+		"Description": "Provides convenient, safety-engineered disposal products that help reduce needlestick injuries.Designed to hold both insulin syringes and pen needles,* the BD home sharps container is a leak-proof and puncture-resistant container for safe, convenient disposal of used sharps.",
+		"1": "Sharps containment at home",
+		"2": "Container of differen Sizes",
+		"3": "Delivery at doorstep."
+	}
+]

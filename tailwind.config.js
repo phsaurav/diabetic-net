@@ -30,6 +30,8 @@ module.exports = {
 			lime: colors.lime,
 			brand: {
 				1: '#CD4760',
+				2: '#CD445D',
+				3: '#C1344C',
 			},
 		},
 		fontFamily: {},
