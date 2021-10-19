@@ -19,7 +19,7 @@ const Subscribe = () => {
 						<Link to="/home">
 							<div className=" mt-3  flex  flex-row justify-center">
 								<button
-									className=" p-2  w-40  bg-brand-1  rounded-lg  text-white hover:bg-indigo-300"
+									className=" p-2  w-40  bg-brand-1  rounded-lg  text-white hover:bg-brand-3"
 									type="button"
 								>
 									Go Back
