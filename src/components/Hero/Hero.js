@@ -52,7 +52,7 @@ const Hero = () => {
 			<div>
 				<span
 					id="blackOverlay"
-					className="w-full absolute bg-center opacity-30 bg-black top-0"
+					className="w-full absolute bg-center opacity-40 bg-black top-0"
 					style={{ height: '500px' }}
 				></span>
 			</div>
@@ -62,7 +62,7 @@ const Hero = () => {
 					them in leading a healhty life
 				</p>
 				<HashLink
-					to="#services"
+					to="home#services"
 					className="bg-bluegray-700 bg-opacity-50 text-white flex items-center text-xl w-64 pl-1 rounded-full pt-2 pb-3 justify-center mt-5"
 				>
 					Explore Our Services{' '}

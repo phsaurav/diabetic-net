@@ -1,4 +1,4 @@
-import { Switch, Route, useHistory } from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 import React from 'react';
 import Hero from '../../components/Hero/Hero';
 import useServices from '../../hooks/useServices';

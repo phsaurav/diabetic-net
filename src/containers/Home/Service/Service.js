@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { IoMdArrowRoundBack } from 'react-icons/io';
 import { BsArrowReturnRight } from 'react-icons/bs';
-import { MdOutlineArrowBackIos } from 'react-icons/md';
 
 const Service = ({ services }) => {
 	const { key } = useParams();
