@@ -56,14 +56,14 @@ const Hero = () => {
 					style={{ height: '500px' }}
 				></span>
 			</div>
-			<div className="w-3/6 ml-5 md:ml-28 lg:ml-40 xl:ml-72 absolute top-20 mx-auto">
+			<div className="w-3/6 ml-5 md:ml-28 lg:ml-40 xl:ml-72 absolute top-20 mx-auto z-50">
 				<p className="text-white text-3xl md:text-2xl w-96">
 					Diabatic Net is a network for patient with diabetes to help
 					them in leading a healhty life
 				</p>
 				<HashLink
 					to="home#services"
-					className="bg-bluegray-700 bg-opacity-50 text-white flex items-center text-xl w-64 pl-1 rounded-full pt-2 pb-3 justify-center mt-5"
+					className="bg-bluegray-700 bg-opacity-50 text-white flex items-center text-xl w-64 pl-1 rounded-full pt-2 pb-3 justify-center mt-5 "
 				>
 					Explore Our Services{' '}
 					<BsArrowRight className="text-3xl ml-2 pt-1" />
