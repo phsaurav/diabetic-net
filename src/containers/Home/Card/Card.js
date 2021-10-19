@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ service }) => {
-	const { img, title, subtitle, intro } = service;
+	const { key, img, title, subtitle, intro } = service;
 	return (
 		<div className=" h-66">
 			<div className="flex overflow-hidden h-72">
@@ -22,9 +23,11 @@ const Card = ({ service }) => {
 					<p className="mt-2 hidden md:block text-gray-500 text-sm lg:text-base ">
 						{intro}
 					</p>
-					<button className="my-5 bg-brand-1 text-white text-sm font-normal px-3 md:px-5 py-2 lg:py-3 md:font-semibold">
-						Explore Treatment & Care
-					</button>
+					<Link to={`/service/${key}`}>
+						<button className="my-5 bg-brand-1 hover:bg-brand-3 text-white text-sm font-normal px-3 md:px-5 py-2 lg:py-3 md:font-semibold">
+							Explore Treatment & Care
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

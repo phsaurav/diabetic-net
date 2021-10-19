@@ -26,7 +26,7 @@ const contents = [
 
 const Hero = () => {
 	return (
-		<div>
+		<div className="relative">
 			<Slider
 				autoplay="7000"
 				infinite="true"
@@ -53,10 +53,10 @@ const Hero = () => {
 				<span
 					id="blackOverlay"
 					className="w-full absolute bg-center opacity-30 bg-black top-0"
-					style={{ height: '564px' }}
+					style={{ height: '500px' }}
 				></span>
 			</div>
-			<div className="w-3/6 ml-5 md:ml-28 lg:ml-40 xl:ml-72 absolute top-28 mx-auto">
+			<div className="w-3/6 ml-5 md:ml-28 lg:ml-40 xl:ml-72 absolute top-20 mx-auto">
 				<p className="text-white text-3xl md:text-2xl w-96">
 					Diabatic Net is a network for patient with diabetes to help
 					them in leading a healhty life
@@ -70,8 +70,8 @@ const Hero = () => {
 				</HashLink>
 			</div>
 			<div
-				className="absolute text-white hidden md:block  md:text-9xl mt-16 lg:m-0 lg:text-10xl ml-5 font-semibold"
-				style={{ top: '220px' }}
+				className="absolute text-white hidden md:block  md:text-9xl mt-16 lg:m-0 lg:text-10xl ml-5 lg:ml-10 font-semibold"
+				style={{ top: '180px' }}
 			>
 				<h1>diabetes</h1>
 			</div>
