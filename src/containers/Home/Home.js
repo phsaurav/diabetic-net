@@ -12,7 +12,7 @@ const Home = () => {
 	const [services] = useServices();
 	const [blogs] = useBlogs();
 	const newBlogs = blogs.length ? blogs.slice(0, 3) : [];
-	console.log(newBlogs);
+	
 	return (
 		<div>
 			<Hero></Hero>
