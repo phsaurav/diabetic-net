@@ -148,7 +148,7 @@ const Home = () => {
 							<Link to="/about">
 								<div className=" mt-3  flex  flex-row justify-center">
 									<button
-										className=" p-2  w-40  bg-indigo-400  rounded-lg  text-white hover:bg-indigo-300"
+										className=" p-2  w-40  bg-blue-30  rounded-lg  text-white hover:bg-blue-20"
 										type="button"
 									>
 										Learn More
