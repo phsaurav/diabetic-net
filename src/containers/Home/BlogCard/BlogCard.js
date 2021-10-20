@@ -7,7 +7,7 @@ const BlogCard = ({ blog }) => {
 		<div>
 			<Link to="/blogs">
 				<article
-					className="relative w-96 h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out m-5"
+					className="relative w-96 h-64 bg-cover bg-center group  overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out m-5"
 					style={{
 						backgroundImage: `url(${img})`,
 					}}

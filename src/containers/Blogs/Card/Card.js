@@ -7,7 +7,7 @@ const Card = ({ blog }) => {
 	return (
 		<div>
 			<div className="mt-10">
-				<div className="max-w-4xl px-10 py-6 mx-auto bg-white rounded-lg shadow-md">
+				<div className="max-w-4xl px-10 py-6 mx-auto bg-white shadow-md">
 					<div className="flex items-center justify-between">
 						<span className="font-light text-gray-600">{date}</span>
 

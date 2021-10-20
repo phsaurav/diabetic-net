@@ -1,5 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Redirect,
+} from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './containers/Home/Home';
 import Login from './containers/Login/Login';
@@ -22,7 +27,7 @@ function App() {
 							<Header></Header>
 							<Switch>
 								<Route exact path="/">
-									<Home></Home>
+									<Redirect to="/home"></Redirect>
 								</Route>
 								<Route path="/home">
 									<Home></Home>

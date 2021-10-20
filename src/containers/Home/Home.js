@@ -84,7 +84,7 @@ const Home = () => {
 				style={{
 					backgroundBlendMode: 'multiply',
 					backgroundSize: 'cover',
-					backgroundPosition: 'center',
+					backgroundPosition: 'bottom',
 					backgroundImage: `url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/injection-with-insulin-pen-royalty-free-image-1634308512.jpg?crop=1.00xw:0.752xh;0,0&resize=1200:*')`,
 					width: '100%',
 				}}

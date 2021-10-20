@@ -70,14 +70,14 @@ const Login = () => {
 					<input
 						type="text"
 						placeholder="Email"
-						onBlur={handleEmailChange}
+						onChange={handleEmailChange}
 						className="text-sm w-80 bg-gray-100 flex flex-row justify-between h-12 pl-5 rounded-lg my-5"
 						style={{ outline: 'none' }}
 					/>
 					<input
 						type="password"
 						placeholder="Password"
-						onBlur={handlePasswordChange}
+						onChange={handlePasswordChange}
 						className="text-sm w-80 bg-gray-100 flex flex-row justify-between h-12 pl-5 rounded-lg my-5"
 						style={{ outline: 'none' }}
 					/>
