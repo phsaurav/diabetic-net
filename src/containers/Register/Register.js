@@ -18,10 +18,12 @@ const Register = () => {
 		setIsLoading,
 		password,
 		signInUsingGoogle,
+		verifyEmail,
+		setUserName,
 	} = useAuth();
 	const location = useLocation();
 	const history = useHistory();
-	const redirect_uri = location.state?.from || '/login';
+	const redirect_uri = location.state?.from || '/home';
 
 	const [rePass, setRePass] = useState('');
 
@@ -54,8 +56,19 @@ const Register = () => {
 		}
 		setError('');
 
-		createNewUser();
-		history.push(redirect_uri);
+		createNewUser()
+			.then((res) => {
+				const user = res.user;
+				console.log(user);
+				setError('');
+				verifyEmail();
+				setUserName();
+				setUser(user);
+				history.push(redirect_uri);
+			})
+			.catch((error) => {
+				setError(error.message);
+			});
 	};
 	const handleEmailChange = (e) => {
 		setEmail(e.target.value);

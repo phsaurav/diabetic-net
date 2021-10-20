@@ -52,19 +52,7 @@ const useFirebase = () => {
 		});
 	};
 	const createNewUser = () => {
-		console.log(email, password);
-		createUserWithEmailAndPassword(auth, email, password)
-			.then((res) => {
-				const user = res.user;
-				console.log(user);
-				setError('');
-				verifyEmail();
-				setUserName();
-				setUser(user);
-			})
-			.catch((error) => {
-				setError(error.message);
-			});
+		return createUserWithEmailAndPassword(auth, email, password);
 	};
 
 	useEffect(() => {
@@ -94,6 +82,8 @@ const useFirebase = () => {
 		logOut,
 		signInUsingGoogle,
 		createNewUser,
+		verifyEmail,
+		setUserName,
 	};
 };
 
