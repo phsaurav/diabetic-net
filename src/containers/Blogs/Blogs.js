@@ -10,8 +10,8 @@ const Blogs = () => {
 		<div>
 			<div className="px-6 py-8 bg-blue-10 min-h-screen">
 				<div className="container flex justify-between mx-auto">
-					<div className="w-full lg:w-8/12">
-						<div className="flex items-center justify-between">
+					<div className="w-full">
+						<div className="flex max-w-4xl mx-auto">
 							<h1 className="text-xl font-bold text-gray-700 md:text-3xl">
 								Posts
 							</h1>
