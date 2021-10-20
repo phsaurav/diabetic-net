@@ -6,7 +6,11 @@ import './PrivateRoute.css';
 const PrivateRoute = ({ children, ...rest }) => {
 	const { user, isLoading } = useAuth();
 	if (isLoading) {
-		return <div className="w-12 h-12 border-3 rounded-full loader"></div>;
+		return (
+			<div className=" flex justify-center items-center min-h-screen mb-40">
+				<div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-32 w-32"></div>
+			</div>
+		);
 	}
 	return (
 		<Route

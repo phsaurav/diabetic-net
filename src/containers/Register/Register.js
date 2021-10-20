@@ -65,6 +65,7 @@ const Register = () => {
 				setUserName();
 				setUser(user);
 				history.push(redirect_uri);
+				window.location.reload();
 			})
 			.catch((error) => {
 				setError(error.message);
