@@ -9,6 +9,12 @@ const Service = ({ services }) => {
 
 	return (
 		<div>
+			<h1
+				className="text-center text-3xl font-bold text-white py-10 bg-blue-30 uppercase"
+				id="services"
+			>
+				{selectedService[0].title}
+			</h1>
 			{selectedService[0] && (
 				<div className="container mx-auto ">
 					<section className="relative pt-20  pb-36 ">
