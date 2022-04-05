@@ -54,7 +54,7 @@ const Login = () => {
 	};
 
 	return (
-		<div className="w-full h-full fixed block top-0 left-0 bg-white  z-50">
+		<div >
 			<Link to="/home">
 				<button
 					type="button"
@@ -63,7 +63,7 @@ const Login = () => {
 					<MdClose></MdClose>
 				</button>
 			</Link>
-			<div className="flex flex-col justify-center items-center h-screen">
+			<div className="flex flex-col justify-start items-center pt-20 pb-10">
 				<img src={logo} alt="Logo" style={{ height: '51px' }} />
 
 				<form className="mt-4 " onSubmit={handleSignIn}>
@@ -95,7 +95,7 @@ const Login = () => {
 					</p>
 				</form>
 				<hr className="border-0 w-80 bg-bluegray-300 text-gray-500 h-px"></hr>
-				<div className="flex justify-center mb-80">
+				<div className="flex justify-center">
 					<button
 						onClick={handleGoogleSignIn}
 						className="rounded-full bg-brand-1 text-white text-2xl p-2 mt-5 hover:bg-white  border-white hover:border-brand-1 border-2 hover:text-brand-1"
